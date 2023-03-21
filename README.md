@@ -1,2 +1,2 @@
 # HTML-CSS-projects
-This repository contain HTML and CSS projects from academy of learning
+This repository contains HTML and CSS projects from academy of learning
