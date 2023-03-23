@@ -1,0 +1,20 @@
+/*div {
+	background-color: #7B68EE;
+}*/
+h1{
+	color: #FF00FF;
+	text-shadow: 1px 2px #E6E6FA;
+}
+#headers {
+	background-color:#C0C0C0;
+}
+.doingList {
+	background-color:#778899;
+}
+.doingList:hover {
+	color:#FF00FF;
+	background-color:#E6E6FA;
+}
+table {
+	border: 2px solid #4B0082;
+}
