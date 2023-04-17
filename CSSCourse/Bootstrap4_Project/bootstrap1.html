@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Hello, Books!</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Image and text -->
+      <nav class="navbar navbar-light bg-light"id="home">
+        <a class="navbar-brand" href="#">
+          <img src="./Img/bookStore.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          BOOK STORE
+        </a>
+      </nav>
+      <!--END of Image and text -->
+
+      <!--NavBar Part-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#discription">Discription</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Books
+              </a>
+              <div class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item text-light" href="#shopping">Book1</a>
+                <a class="dropdown-item text-light" href="#shopping">Book2</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-light" href="#">More Options</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#">About us</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <!--END of NavBar Part-->
+      
+      <!--Jumbotron-->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+          <h1 class="display-4">BOOK STORE</h1>
+          <p class="lead">READ DISCRIPTION AND BUY WHAT YOU LIKE!</p>
+        </div>
+      </div>
+      <!--END of Jumbotron-->
+
+      <!--COLUMNS-->
+      <div class="container" id="discription">
+        <h2 class="py-3">DISCRIPTION</h2>
+        <div class="row">
+          <div class="col-sm">
+            <img src="./Img/book.png" class="rounded border border-info" width="300">
+          </div>
+          <div class="col-sm text-justify">
+            <p>What exactly do human beings get from reading books? Is it just a matter of pleasure, or are there benefits beyond enjoyment? The scientific answer is a resounding “yes.”
+            Reading books benefits both your physical and mental health, and those benefits can last a lifetime. They begin in early childhood and continue through the senior years.
+            </p>
+          </div>
+          <div class="col-sm">
+            <div class="list-group">
+              <h6 class="list-group-item list-group-item-action bg-secondary text-white text-center">
+                NEW ARRIVALS
+              </h6>
+              <a href="#shahnameh" class="list-group-item list-group-item-action">Shahname</a>
+              <a href="#hafez" class="list-group-item list-group-item-action">Divan Hafez</a>
+              <a href="#molavi" class="list-group-item list-group-item-action">Divan Shams</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--END of Coulmns-->
+
+      <!--Books shopping-->
+      <div class="container my-5" id="shopping">
+        <h2 class="py-3">BOOKS</h2>
+        <h5 class="font-italic">Beautiful view and discription of what you need!!</h5>
+        <div class="row bg-light py-3">
+          <!--book 1-->
+          <div class="col-sm" id="shahnameh">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="./Img/Shahnameh.png" alt="Card image cap" height="350px" width="300px">
+              <div class="card-body text-justify" >
+                <h5 class="card-title font-italic">SHAH NAMEH</h5>
+                <p class="card-text">The Shahnameh or Shahnama is a long epic poem written by the Persian poet Ferdowsi between c. 977 and 1010 CE and is the national epic of Greater Iran.</p>
+                <a href="#" class="btn btn-secondary">Add to card</a>
+              </div>
+            </div>
+            <span class="badge badge-info">New</span>
+            <span class="badge badge-info">original</span>
+            <span class="badge badge-info">Iran</span>
+          </div>
+
+          <!--book 2-->
+          <div class="col-sm" id="hafez">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="./Img/DivanEHafez.png" alt="Card image cap" height="350px" width="300px">
+              <div class="card-body">
+                <h5 class="card-title font-italic">DIVAN HAFEZ</h5>
+                <p class="card-text">The Divān of Hafez (Persian: دیوان حافظ) is a collection of poems written by the Iranian poet Hafez. Most of these poems are in Persian</p>
+                <a href="#" class="btn btn-secondary">Add to card</a>
+              </div>
+            </div>
+            <span class="badge badge-info">New</span>
+          </div>
+
+          <!--book 3-->
+          <div class="col-sm" id="molavi">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="./Img/DivaneShams.png" alt="Card image cap" height="350px">
+              <div class="card-body">
+                <h5 class="card-title font-italic">DIVAN SHAMS</h5>
+                <p class="card-text">Divan of Shams, is a collection of poems written by the Persian poet and Sufi mystic Mawlānā Jalāl-ad-Dīn Muhammad Balkhī, also known as Rumi.</p>
+                <a href="#" class="btn btn-secondary">Add to card</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--END of Books shopping-->
+
+      <!--movie-->
+      <div class="jumbotron jumbotron-fluid bg-info mt-5 text-center">
+        <div class="container">
+          <h1 class="display-4 hidden-sm-sown" style="color: #fff;font-family: roboto;font-weight: 900;text-transform: uppercase;">BOOK Deals</h1>
+          <p class="lead">Check out our mounthly deals...</p>
+          <!--<button type="button" class="btn btn-outline-primary" data-toggle="#register">-->
+          <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#register">See our mounthly movie deals!</button>
+        </div>
+      </div>
+      <!--end of movie-->
+
+      <!--Email submission form-->
+      <div class="container">
+        <form>
+          <h1 class="text-secondary text-center my-5">Sign up for book store REWARDS!!</h1>
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="text-center">
+            <!--<button type="submit" class="btn btn-secondary">Submit</button>-->
+            <button type="button" class="btn btn-secondary popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="By submitting your Email you have the chance to win the rewards; That's amazing!!">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!--form modal-->
+      <div class="modal" tabindex="-1" role="dialog" id="register">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Information</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">First Name</label>
+                  <input type="text" class="form-control" id="firstName" aria-describedby="emailHelp" placeholder="first name">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Last Name</label>
+                  <input type="text" class="form-control" id="lastName" aria-describedby="emailHelp" placeholder="last name">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email Address</label>
+                  <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Email address">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--footer-->
+      <div class="container bg-secondary my-5">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <small><a class="nav-link text-light" href="#">about us</a></small>
+          </li>
+          <li class="nav-item">
+            <small><a class="nav-link text-light" href="#">Links</a></small>
+          </li>
+          <li class="nav-item">
+            <small><a class="nav-link text-light" href="#">book.com</a></small>
+          </li>
+          <li class="nav-item">
+            <small class="nav-link text-light" >&copy; 2023 arezoo.websites</small>
+          </li>
+        </ul>
+      </div>
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+      $('.popover-dismiss').popover({
+          trigger: 'focus'
+        })
+    </script>
+  </body>
+</html>
